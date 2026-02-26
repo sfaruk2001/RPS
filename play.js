@@ -87,27 +87,6 @@ function playRound(humanChoice, computerChoice) {
         textArea.textContent = msg;
     }
 
-/** 
-function playGame() {
-    for (let i = 0; i < 5; i++) {
-        let playerInput = getHumanChoice();
-        let result = playRound(playerInput, getComputerChoice());
-        console.log(result);
-    }
-
-    if (humanScore > computerScore) {
-        console.log("You win the best of 5!");
-    } else if (computerScore > humanScore) {
-        console.log("You lose the best of 5!");
-    } else {
-        console.log("Best of 5 is a draw!");
-    }
-    console.log(`Computer: ${computerScore} Player: ${humanScore}`);
-}**/
-    
-
-//playGame();
-
 
 
 
