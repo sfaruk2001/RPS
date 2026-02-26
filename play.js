@@ -61,7 +61,7 @@ function playRound(humanChoice, computerChoice) {
         return msg;
     }
 
-
+/** 
 function playGame() {
     for (let i = 0; i < 5; i++) {
         let playerInput = getHumanChoice();
@@ -77,9 +77,10 @@ function playGame() {
         console.log("Best of 5 is a draw!");
     }
     console.log(`Computer: ${computerScore} Player: ${humanScore}`);
-}
+}*/
 
-playGame();
+
+//playGame();
 
 
 
